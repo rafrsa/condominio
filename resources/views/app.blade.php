@@ -65,6 +65,7 @@
 {{--<script type="text/javascript" src="http://demo.geekslabs.com/materialize/v2.1/layout03/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>--}}
 {{--<script type="text/javascript" src="http://demo.geekslabs.com/materialize/v2.1/layout03/js/plugins/jvectormap/vectormap-script.js"></script>--}}
 
+<script type="text/javascript" src="{{ URL::asset('js/custom.js') }}"></script>
 <script type="text/javascript" src="http://demo.geekslabs.com/materialize/v2.1/layout03/js/plugins.js"></script>
 
 </body>

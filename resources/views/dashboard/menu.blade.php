@@ -6,7 +6,7 @@
                     <i class="mdi-action-dashboard"></i>
                     <span>Dashboard</span>
                 </a>
-            </li>            
+            </li>
             <li>
                 <a class="dropdown-menu cyan-text" href="#!" data-activates="CadastrosDropdown">
                     <i class="mdi-action-assessment"></i>
@@ -18,6 +18,7 @@
 </nav>
 
 <ul id="CadastrosDropdown" class="dropdown-content dropdown-horizontal-list">
+    <li><a href="#!" class="cyan-text" id="cadastro-organizacao">Organização</a></li>
     <li><a href="#!" class="cyan-text">Edifício</a></li>
     <li><a href="#!" class="cyan-text">Bloco</a></li>
     <li><a href="#!" class="cyan-text">Unidade</a></li>

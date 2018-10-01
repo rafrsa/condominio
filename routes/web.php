@@ -19,4 +19,10 @@ Route::get('medicao', function () {
     return view('medicao/inicial');
 });
 
+Route::get('organizacao/listar', function () {
+    return view('organizacao/inicial');
+});
+
+$router->post('organizacao/list', 'ContactsController@create');
+
 // Route::resource('app', 'AppController');
