@@ -12,7 +12,7 @@
                 <div class="card-action green darken-1 center-align">
                     <a href="#" class="cyan-text text-accent-1">Faça uma medição</a>
                 </div>
-            </div>
+            </div> 
         </div>
     </div>
 </div> --}}
