@@ -6,24 +6,20 @@
                     <i class="mdi-action-dashboard"></i>
                     <span>Dashboard</span>
                 </a>
-            </li>
+            </li>            
             <li>
-                <a href="#!" class="cyan-text">
-                    <i class="mdi-image-colorize"></i>
-                    <span>Medição</span>
-                </a>
-            </li>
-            <li>
-                <a class="dropdown-menu cyan-text" href="#!" data-activates="Reldropdown">
+                <a class="dropdown-menu cyan-text" href="#!" data-activates="CadastrosDropdown">
                     <i class="mdi-action-assessment"></i>
-                    <span>Relatórios<i class="mdi-navigation-arrow-drop-down right"></i></span>
+                    <span>Cadastros<i class="mdi-navigation-arrow-drop-down right"></i></span>
                 </a>
             </li>
         </ul>
     </div>
 </nav>
 
-<ul id="Reldropdown" class="dropdown-content dropdown-horizontal-list">
-    <li><a href="#!" class="cyan-text">Medições</a></li>
-    <li><a href="#!" class="cyan-text">Histórico</a></li>
+<ul id="CadastrosDropdown" class="dropdown-content dropdown-horizontal-list">
+    <li><a href="#!" class="cyan-text">Edifício</a></li>
+    <li><a href="#!" class="cyan-text">Bloco</a></li>
+    <li><a href="#!" class="cyan-text">Unidade</a></li>
+    <li><a href="#!" class="cyan-text">Condômino</a></li>
 </ul>

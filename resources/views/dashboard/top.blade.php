@@ -9,7 +9,7 @@
             <li>
                 <h1 class="logo-wrapper">
                     <a href="#!" class="brand-logo darken-1">
-                        <img src="{{URL::asset('images/logo_glicon.png')}}" alt="glicon logo" style="width: 10rem;">
+                        <img src="{{URL::asset('images/logo-condominio.png')}}" alt="glicon logo" style="width: 15rem;">
                     </a>
                     <span class="logo-text">Glicon</span>
                 </h1>

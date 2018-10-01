@@ -1,7 +1,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
 <script type="text/javascript" src="http://www.chartjs.org/samples/latest/utils.js"></script>
 
-<div id="card-stats">
+{{-- <div id="card-stats">
     <div class="row">
         <div class="col s12 m6 l3">
             <div class="card">
@@ -15,13 +15,13 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 
-<div style="width:75%;">
+{{-- <div style="width:75%;">
     <canvas id="myChart" width="400" height="400"></canvas>
-</div>
+</div> --}}
 
-<script>
+{{-- <script>
     var ctx = document.getElementById("myChart");
 
     var myChart = new Chart(ctx, {
@@ -60,4 +60,4 @@
             }
         }
     });
-</script>
+</script> --}}

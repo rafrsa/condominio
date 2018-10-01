@@ -8,7 +8,7 @@
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <title>Glicon</title>
+    <title>Portal do Condomínio</title>
 
     <link rel="icon" href="http://demo.geekslabs.com/materialize/v2.1/layout03/images/favicon/favicon-32x32.png" sizes="32x32">
     <link rel="apple-touch-icon-precomposed" href="http://demo.geekslabs.com/materialize/v2.1/layout03/images/favicon/apple-touch-icon-152x152.png">
