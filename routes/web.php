@@ -15,14 +15,14 @@ Route::get('/', function () {
     return view('app');
 });
 
-Route::get('medicao', function () {
-    return view('medicao/inicial');
-});
+// Route::get('medicao', function () {
+//     return view('medicao/inicial');
+// });
 
-Route::get('organizacao/listar', function () {
-    return view('organizacao/inicial');
-});
+// Route::post('organizacao/listar', function () {
+//     return view('organizacao/inicial');
+// });
 
-$router->post('organizacao/list', 'ContactsController@create');
+Route::post('organizacao/listar', 'OrganizacaoController@listar');
 
 // Route::resource('app', 'AppController');

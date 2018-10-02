@@ -10,6 +10,8 @@
     <meta name="keywords" content="">
     <title>Portal do Condomínio</title>
 
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+
     <link rel="icon" href="http://demo.geekslabs.com/materialize/v2.1/layout03/images/favicon/favicon-32x32.png" sizes="32x32">
     <link rel="apple-touch-icon-precomposed" href="http://demo.geekslabs.com/materialize/v2.1/layout03/images/favicon/apple-touch-icon-152x152.png">
     <meta name="msapplication-TileColor" content="#00bcd4">
@@ -42,7 +44,7 @@
     <div class="wrapper">
         @include("dashboard/menu-leftside")
         <section id="content">
-            <div class="container page-content">
+            <div class="container page-content" id="content-site-global">
                 @include("dashboard/dashboard")
             </div>
         </section>

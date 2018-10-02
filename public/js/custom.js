@@ -3,11 +3,11 @@ $(document).ready(function() {
         $.ajax({
             headers: { 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content') },
             method: "POST",
-            url: "contactHistory/filterHistoryContent",
+            url: "organizacao/listar",
             data: {
             }
-        }).done(function( msg ) {
-            alert(msg);
+        }).done(function(msg) {
+            $("#content-site-global").html(msg);
         });
     });
 });
