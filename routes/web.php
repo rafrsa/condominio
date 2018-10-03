@@ -24,5 +24,10 @@ Route::get('/', function () {
 // });
 
 Route::post('organizacao/listar', 'OrganizacaoController@listar');
+Route::post('organizacao/nova', 'OrganizacaoController@nova');
+Route::post('organizacao/inserir', 'OrganizacaoController@inserir');
+Route::post('organizacao/deletar', 'OrganizacaoController@deletar');
+Route::post('organizacao/editar', 'OrganizacaoController@editar');
+Route::post('organizacao/atualizar', 'OrganizacaoController@atualizar');
 
 // Route::resource('app', 'AppController');
